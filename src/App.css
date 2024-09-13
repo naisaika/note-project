@@ -1,0 +1,4 @@
+.allSection {
+    display: flex;
+    overflow-y: hidden;
+}

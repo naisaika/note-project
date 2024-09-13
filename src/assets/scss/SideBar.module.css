@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.sideBarSec {
+  width: 30%;
+  padding: 0 16px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* 子要素を縦方向に並べる */
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.titleContainer > h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.noteList {
+  padding-left: 0;
+  overflow-y: auto;
+}
+.noteList > li {
+  list-style: none;
+  border-top: solid 1px #a4a4a4;
+  padding: 8px 0;
+}
+.noteList > li > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.noteList > li > div > h2 {
+  font-size: 16px;
+  color: #333;
+  margin: 8px 0 4px;
+  font-weight: bold;
+}
+.noteList > li > p {
+  margin: 8px 0 0;
+}
+.noteList > li > small {
+  font-size: 10px;
+  color: #7b7a7a;
+}
+/*# sourceMappingURL=SideBar.module.css.map */

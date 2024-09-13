@@ -1,0 +1,35 @@
+.mainSection {
+  width: 70%;
+  margin-top: 24px;
+  padding: 0 24px;
+}
+.mainSection > .inputContainer {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+.mainSection > .inputContainer > input {
+  padding: 8px;
+  border: none;
+  margin-bottom: 16px;
+}
+.mainSection > .inputContainer > input:focus {
+  outline: solid 1px #9a9a9a;
+}
+.mainSection > .inputContainer > textarea {
+  height: 30vh;
+  border: none;
+  padding: 8px;
+}
+.mainSection > .inputContainer > textarea:focus {
+  outline: solid 1px #9a9a9a;
+}
+
+.previewContainer {
+  height: 50vh;
+}
+.previewContainer > h2 {
+  font-size: 24px;
+  color: #333;
+}
+/*# sourceMappingURL=MainSide.module.css.map */
